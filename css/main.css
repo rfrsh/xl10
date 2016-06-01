@@ -1,0 +1,207 @@
+#select{
+    margin: 20px 0 0 200px;
+}
+#table{
+    margin: 20px 0 0 0;
+    overflow: scroll;
+    width: 1300px;
+    height: 500px;
+}
+.main-table{
+    border-collapse: collapse;
+}
+.main-table, .main-table th, .main-table td {
+    border: 1px solid black;
+}
+.main-table td, .main-table th{
+    width: 80px;
+  /*  overflow: hidden;
+    height: 20px;*/
+    padding: 0px;
+
+}
+.main-table td:hover,.main-table input:hover{
+    background-color: #EEEEEE;
+
+}
+.main-table input:focus{
+    background-color: #CCCCFF;
+    outline: none;
+}
+/*.main-table tr:first-child{
+    background-color: #CCCCCC;
+}*/
+/*.main-table tr:first-child, .main-table tr td:first-child,.main-table tr th:first-child{
+    background-color: #CCCCCC;
+    width: 60px;
+    text-align: center;
+    font-weight: bold
+
+}*/
+.main-table input{
+    overflow: hidden;
+    width: 80px;
+    height: 18px;
+    border: 0px;
+    padding: 0px;
+
+}
+
+.main-table td{
+    white-space: nowrap;
+    max-width:80px;
+    overflow: hidden;
+    width: 80px;
+    height: 20px;
+    padding: 0px;
+
+
+}
+div[data-name="trow"]{
+    width: 2000px;
+    margin-left:50px;
+    /*position: fixed;*/
+
+}
+div[data-name="trow"] div{
+    display: inline-block;
+    background-color: #CCCCCC;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+    border-right: 0px solid black;
+    border-bottom: 0px solid black;
+}
+
+div[data-name="tcol"]{
+    width: 50px;
+    float:left;
+    position: relative;
+    top: -20px;
+   /* background-color: red;*/
+}
+div[data-name="tcol"] div{
+    background-color: #CCCCCC;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+    border-right: 0px solid black;
+    border-bottom: 0px solid black;
+}
+
+div[data-name="table"]{
+    float: left;
+}
+
+
+div[data-name="tcol-table"]{
+    width: 2100px;
+}
+
+tr .formula-selected-0{
+    outline: 2px solid orangered;
+    position: relative;
+    top: 1px;
+    left: 1px;
+    /*outline-offset: -1px;
+    outline-offset-right: -2px;
+    outline-offset-top: -2px;
+    outline-offset-bottom: -2px;*/
+
+    /*Box-shadow:0px 1px 0px #f00,0px -1px 0px #f00,1px 0px 0px #f00,-1px 0px 0px #f00;
+    border-radius:5px;
+    Box-shadow:0px 2px 0px #f00,0px -2px 0px #f00,2px 0px 0px #f00,-2px 0px 0px #f00;*/
+   /* background-color: orangered;*/
+}
+
+tr .formula-selected-1 {
+    outline: 2px solid #7b5ec0;
+    position: relative;
+    top: 1px;
+    left: 1px;
+    }
+
+tr .formula-selected-2 {
+    outline: 2px solid #c0793b;
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+tr .formula-selected-3 {
+    outline: 2px solid #4cc049;
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+tr .formula-selected-4 {
+    outline: 2px solid #c02b8c;
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+tr .formula-selected-5 {
+    outline: 2px solid #41a1c0;
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+tr .formula-selected-6 {
+    outline: 2px solid #c0bb35;
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+tr .formula-selected-7 {
+    outline: 2px solid #1810c0;
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+
+div div .cell-selected{
+    background-color: orange;
+
+    /* background-color: orangered;*/
+}
+div.main-input{
+    background-color: #CCCCCC;
+    width: 1300px;
+    /*text-align: center;
+    bottom:0;*/
+    position: relative;
+    top: 20px;
+   /* z-index: 1000;
+    width:100%;*/
+    /*height:100px;*/
+}
+
+div.add-option{
+    padding-top: 5px;
+}
+.display-none{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
